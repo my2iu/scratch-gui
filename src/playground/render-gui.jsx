@@ -75,11 +75,7 @@ export default appTarget => {
                 onTelemetryModalOptOut={handleTelemetryModalOptOut}
             /> :
             <WrappedGui
-                backpackVisible
-                showComingSoon
-                backpackHost={backpackHost}
                 canSave={false}
-                onClickLogo={onClickLogo}
             />,
         appTarget);
 };
