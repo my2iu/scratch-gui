@@ -14,12 +14,6 @@ const QueryParserHOC = function (WrappedComponent) {
             super(props);
             const queryParams = queryString.parse(location.search);
         }
-        setActiveCards (tutorialId) {
-            this.props.onUpdateReduxDeck(tutorialId);
-        }
-        openTutorials () {
-            this.props.onOpenTipsLibrary();
-        }
         render () {
             const {
                 onOpenTipsLibrary, // eslint-disable-line no-unused-vars
