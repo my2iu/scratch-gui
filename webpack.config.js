@@ -169,6 +169,10 @@ module.exports = [
                 title: 'Scratch 3.0 GUI: Player Example'
             }),
             new CopyWebpackPlugin([{
+                from: 'medialibraries',
+                to: 'medialibraries'
+            }]),
+            new CopyWebpackPlugin([{
                 from: 'static',
                 to: 'static'
             }]),

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="480px" height="360px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 480 360"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:ns1="http://sozi.baierouge.fr"
+ sodipodi:docname="living-room-scene.svg"
+ version="1.1"
+ inkscape:version="0.48.2 r9819">
+ <defs>
+   <mask id="id0">
+     <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="265.907" y1="123.71" x2="216.445" y2="496.494">
+      <stop offset="0" stop-opacity="1" stop-color="white"/>
+      <stop offset="1" stop-opacity="0.588235" stop-color="white"/>
+     </linearGradient>
+    <rect fill="url(#id1)" x="-7" y="153" width="497" height="314"/>
+   </mask>
+   <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="262.442" y1="149.806" x2="219.911" y2="470.398">
+    <stop offset="0" stop-color="#200A1D"/>
+    <stop offset="1" stop-color="#200A1D"/>
+   </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="-8" pagecolor="#ffffff" inkscape:window-height="796" inkscape:window-maximized="1" inkscape:zoom="0.37777835" inkscape:window-x="-8" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="960" inkscape:cy="540" inkscape:window-width="1600" inkscape:pageopacity="0.0" inkscape:document-units="px"/>
+  <polygon id="rect4348-9" fill="url(#id2)" mask="url(#id0)" points="-7,377 489,377 489,243 -7,243 "/>
+  <rect id="rect4348" fill="#D6EFDC" x="-7" y="-9" width="496" height="251"/>
+  <rect id="rect4876" fill="#F7F7F7" x="-7" y="232" width="496" height="18"/>
+  <rect id="rect4878" fill="#E9E9E9" x="-7" y="230" width="496" height="4"/>
+  <path id="path5075" fill="#8C8A58" stroke="black" stroke-width="1.00039" d="M74 138c1,-5 7,-9 12,-9 102,-3 204,-2 306,1 6,0 14,3 15,8l20 106 -373 0 20 -107z" sodipodi:nodetypes="ssssccs" inkscape:connector-curvature="0"/>
+  <path id="path9545" fill="#797747" d="M105 162c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m35 1c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m33 1c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m32 0c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m38 -1c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m36 1c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m29 0c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m33 0c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m34 -1c0,2 -1,3 -2,3 -1,0 -2,-1 -2,-3 0,-2 1,-3 2,-3 1,0 2,1 2,3m0 0l0 0 0 0z" inkscape:connector-curvature="0"/>
+  <polygon id="path5094-1" fill="#9C9A6A" points="429,190 398,177 398,240 428,262 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+  <polygon id="path5088-7" fill="#939278" stroke="black" stroke-width="1.00039" points="452,190 414,177 399,177 429,190 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+  <rect id="rect5090-1" fill="#8C8A58" stroke="black" stroke-width="1.00039" stroke-linecap="round" x="429" y="190" width="24" height="83"/>
+  <polygon id="path5094" fill="#9C9A6A" points="53,190 86,176 86,246 53,273 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+  <polygon id="path5088" fill="#939278" stroke="black" stroke-width="1.00039" points="29,190 53,190 86,177 67,177 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+  <rect id="rect5090" fill="#8C8A58" stroke="black" stroke-width="1.00039" stroke-linecap="round" x="29" y="190" width="24" height="83"/>
+  <polygon id="path5196" fill="#63613A" points="85,197 54,213 55,240 428,240 427,214 398,197 " inkscape:connector-curvature="0"/>
+  <path fill="#9C9A6A" stroke="black" stroke-width="1.00039" stroke-linecap="round" d="M60 240l362 0c3,0 6,3 6,6l0 20c0,3 -3,6 -6,6l-362 0c-3,0 -6,-3 -6,-6l0 -20c0,-3 3,-6 6,-6z"/>
+  <path fill="#9C9A6A" stroke="black" stroke-width="1.01457" stroke-linecap="round" d="M59 211l113 0c3,0 5,2 5,5l0 17c0,3 -2,5 -5,5l-113 0c-3,0 -5,-2 -5,-5l0 -17c0,-3 2,-5 5,-5z"/>
+  <path fill="#9C9A6A" stroke="black" stroke-width="1.01457" stroke-linecap="round" d="M184 211l113 0c3,0 5,2 5,5l0 17c0,3 -2,5 -5,5l-113 0c-3,0 -5,-2 -5,-5l0 -17c0,-3 2,-5 5,-5z"/>
+  <path fill="#9C9A6A" stroke="black" stroke-width="1.01457" stroke-linecap="round" d="M309 211l113 0c3,0 5,2 5,5l0 17c0,3 -2,5 -5,5l-113 0c-3,0 -5,-2 -5,-5l0 -17c0,-3 2,-5 5,-5z"/>
+  <polygon id="rect5171" fill="#90905E" stroke="black" stroke-width="1.03937" stroke-linecap="round" points="188,197 287,197 298,211 183,211 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+  <polygon id="rect5171-4" fill="#90905E" stroke="black" stroke-width="1.03937" stroke-linecap="round" points="86,197 182,197 174,211 58,211 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+  <polygon id="path5192" fill="#90905E" stroke="black" stroke-width="1.03937" stroke-linecap="round" points="398,197 293,197 308,211 422,211 " sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0"/>
+ </g>
+</svg>

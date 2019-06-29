@@ -2,6 +2,60 @@ import ScratchStorage from 'scratch-storage';
 
 import defaultProject from './default-project';
 
+class LocalStorageHelper {
+    constructor(types) {
+        this.types = types;
+    }
+    load (assetType, assetId, dataFormat) {
+        if (this.types.indexOf(assetType.name) < 0) {
+            return Promise.resolve(null);
+        }
+        
+        const url = `medialibraries/${assetId}.${dataFormat}`;
+        
+        return new Promise(function (resolve, reject) {
+            const xmlhttp = new XMLHttpRequest();
+            xmlhttp.open('GET', url);
+            xmlhttp.responseType = 'arraybuffer';
+            xmlhttp.onload = () => {
+                if ((xmlhttp.status >= 200 && xmlhttp.status < 300) 
+                        || xmlhttp.status == 0)  // When reading from disk in Chrome, it's possible to have a status of 0
+                    resolve({
+                            data: new Uint8Array(xmlhttp.response),
+                            assetType: assetType,
+                            dataFormat: dataFormat,
+                            base64: null,
+                            decodeText: function() {
+                                return new TextDecoder().decode(this.data);
+                            },
+                            encodeTextData: function(str, dataFormat, generateId) {
+                                this.data = new TextEncoder().encode(str);
+                            },
+                            // encodeDataURI was adapted from LLK's scratch-storage code
+                            encodeDataURI: function(contentType) {
+                                if (this.base64 != null) return this.base64;
+                                if (contentType == null)
+                                    contentType = this.assetType.contentType;
+                                const uint8Data = this.data;
+                                let ascii = '';
+                                for (let i = 0; i < uint8Data.byteLength; i++) {
+                                    ascii += String.fromCharCode( uint8Data[i] );
+                                }
+                                this.base64 = `data:${contentType};base64,${btoa(ascii)}`;
+                                return this.base64;
+                            }
+                        });
+                else
+                    reject(xmlhttp.status);
+            };
+            xmlhttp.onerror = () => {
+                reject(xmlhttp.status);
+            };
+            xmlhttp.send();
+        });
+    }
+}
+
 /**
  * Wrapper for ScratchStorage which adds default web sources.
  * @todo make this more configurable
@@ -10,6 +64,7 @@ class Storage extends ScratchStorage {
     constructor () {
         super();
         this.cacheDefaultProject();
+        this.localHelper = new LocalStorageHelper([this.AssetType.ImageVector.name, this.AssetType.ImageBitmap.name, this.AssetType.Sound.name]);
     }
     addOfficialScratchWebStores () {
         this.addWebStore(
@@ -31,6 +86,9 @@ class Storage extends ScratchStorage {
             [this.AssetType.Sound],
             asset => `static/extension-assets/scratch3_music/${asset.assetId}.${asset.dataFormat}`
         );
+    }
+    addLocalWebStores() {
+        this.addHelper(this.localHelper);
     }
     setProjectHost (projectHost) {
         this.projectHost = projectHost;

@@ -143,7 +143,7 @@ GUI.propTypes = {
 
 GUI.defaultProps = {
     isScratchDesktop: false,
-    onStorageInit: storageInstance => storageInstance.addOfficialScratchWebStores(),
+    onStorageInit: storageInstance => storageInstance.addLocalWebStores(),
     onProjectLoaded: () => {},
     onUpdateProjectId: () => {},
     onVmInit: (/* vm */) => {}
